@@ -17,7 +17,6 @@ const connectDB = async ()=>{
         console.log("Error in Express",error);
         throw error
       })
-
   
     }
     catch(error){
